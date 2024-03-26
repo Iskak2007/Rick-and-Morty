@@ -1,0 +1,30 @@
+.big_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rick_picture{
+    width: 250px;
+    height: 250px;
+}
+.mid_block{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tablica{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pillars{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heart{
+    text-align: center;
+}

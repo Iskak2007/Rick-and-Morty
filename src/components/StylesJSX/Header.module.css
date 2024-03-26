@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    width: 100%;
+    margin-top: -7px;
+    justify-content: center;
+    position: static;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.megaBlock{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.Link{
+  margin-left: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.burger{
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .row{
+    display: none;
+  }
+  .burger{
+    display: contents;
+  }
+}

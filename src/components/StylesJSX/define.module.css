@@ -1,0 +1,28 @@
+.roundIMG{
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+}
+.giga_block{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.middle_block{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tablica{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pillars{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
